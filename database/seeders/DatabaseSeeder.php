@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(StatusesTableSeeder::class);
         $this->call(LabelsTableSeeder::class);
+        $this->call(TaskTableSeeder::class);
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([
